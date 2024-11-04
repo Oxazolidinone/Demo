@@ -18,9 +18,7 @@
      ```
 ### 3. Cài Đặt ComfyUI:
   #### 3.1 **Clone Repository ComfyUI từ GitHub**:
-       ```bash
        git clone https://github.com/comfyanonymous/ComfyUI.git
-       ```
 
   #### 3.2 Khởi Động ComfyUI
   
