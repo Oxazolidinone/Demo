@@ -7,23 +7,22 @@
 ## 2. Pytorch:
   ### 2.1. Phiên bản Pytorch: Nên sử dụng phiên bản mới nhất được cung cấp của pytorch
   ### 2.2. Cài đặt Pytorch:
-    - **Build**: Chọn `Stable` (phiên bản ổn định) hoặc `Nightly` (bản thử nghiệm).
-    - **Operating System**: Chọn hệ điều hành đang sử dụng (Linux, Windows, Mac).
-    - **Package**: Chọn `pip` nếu dùng Python hoặc `conda` nếu dùng Anaconda.
-    - **Compute Platform**: Chọn `CUDA` nếu có GPU NVIDIA hoặc `CPU` nếu không có.
-    - **Sử dụng câu lệnh mà web cung cấp và dán vào cmd để download pytorch**:
-    - **Nếu sử dụng GPU NVIDIA và chọn CUDA 11.8, dùng lệnh sau**:
-      ```bash
-      pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-       ```
+  - **Build**: Chọn `Stable` (phiên bản ổn định) hoặc `Nightly` (bản thử nghiệm).
+  - **Operating System**: Chọn hệ điều hành đang sử dụng (Linux, Windows, Mac).
+  - **Package**: Chọn `pip` nếu dùng Python hoặc `conda` nếu dùng Anaconda.
+  - **Compute Platform**: Chọn `CUDA` nếu có GPU NVIDIA hoặc `CPU` nếu không có.
+  - **Sử dụng câu lệnh mà web cung cấp và dán vào cmd để download pytorch**:
+  - **Nếu sử dụng GPU NVIDIA và chọn CUDA 11.8, dùng lệnh sau**:
+    ```bash
+    pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+     ```
 ### 3. Cài Đặt ComfyUI:
   #### 3.1 **Clone Repository ComfyUI từ GitHub**:
-       - Trong Command Prompt, nhập:
-         ```bash
-         git clone https://github.com/comfyanonymous/ComfyUI.git
-         ```
-       - Hoặc tải mã nguồn trực tiếp từ GitHub nếu chưa có `git`.
-         ```
+     - Trong Command Prompt, nhập:
+       ```bash
+       git clone https://github.com/comfyanonymous/ComfyUI.git
+       ```
+     - Hoặc tải mã nguồn trực tiếp từ GitHub nếu chưa có `git`.
 
   #### 3.2 Khởi Động ComfyUI
   
